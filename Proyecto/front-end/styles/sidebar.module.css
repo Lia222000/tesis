@@ -1,0 +1,78 @@
+.sidebar{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 50vh;
+    background-color: #B46060;
+    padding-top: 1rem;
+    transition: 0.5s;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 0.5rem 0 0.5rem 1.5rem;
+}
+
+.nav_logo,
+.nav Link {
+    display:grid;
+    grid-template-columns: max-content max-content;
+    column-gap: 2rem;
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    text-decoration: none;
+}
+
+.nav_logo{
+    margin-bottom: 2rem;
+}
+
+.nav_logo i{
+    font-size: 1.25rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav_logo .nav_logo_name{
+    font-weight: 700;
+    color: #fff;
+}
+
+.nav Link {
+    position: relative;
+    color: #fff;
+    transition: 0.5s;
+    margin-bottom: 1.5rem;
+}
+
+.nav Link:hover{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.active {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.active::before {
+    content: "";
+    position: absolute;
+    left:0;
+    top: 0;
+    height: 38px;
+    width: 3px;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.show {
+    left: 0;
+}
+
+.space_toggle {
+    padding-left: 1rem;
+}

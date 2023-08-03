@@ -1,0 +1,168 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+    margin-top: 70px;
+    color: #444444;
+    font-size: 14px;
+    background: #fde2ce;
+}
+
+.footer .row {
+    display: flex;
+    padding: 20px;
+}
+
+.footer .footer_top {
+    padding: 60px 0 30px 0;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+}
+
+.footer .footer_top .footer_contact{
+    margin-right: 90px;
+}
+
+.footer .footer_top .footer_contact h4 {
+    font-size: 22px;
+    margin: 0 0 30px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+  
+.footer .footer_top .footer_contact p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: #777777;
+}
+  
+.footer .footer_top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.footer .footer_top .footer_links{
+    margin-right: 70px;
+}
+
+.footer .footer_top .footer_links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+.footer .footer_top .footer_links ul i {
+    padding-right: 2px;
+    color: #B46060;
+    font-size: 18px;
+    line-height: 1;
+}
+  
+.footer .footer_top .footer_links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+  
+.footer .footer_top .footer_links ul li:first-child {
+    padding-top: 0;
+}
+  
+.footer .footer_top .footer_links ul a {
+    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+}
+  
+.footer .footer_top .footer_links ul a:hover {
+    text-decoration: none;
+    color: #967E76;
+}
+  
+.footer .footer_newsletter {
+    font-size: 15px;
+}
+  
+.footer .footer_newsletter h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+}
+  
+.footer .footer_newsletter form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    text-align: left;
+    border: 1px solid #fce1cc;
+  }
+  
+.footer .footer_newsletter form input[type=email] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+}
+  
+.footer .footer_newsletter form input[type=submit] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #B46060;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 50px;
+}
+  
+.footer .footer_newsletter form input[type=submit]:hover {
+    background: #967E76;
+}
+
+.credits a
+.social_links a {
+    display: flex;
+}
+
+.footer .credits a {
+    padding-top: 10px;
+    padding-right: 50px;
+    font-size: 13px;
+    color: #444444;
+    text-decoration: none;
+}
+  
+.footer .social_links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #B46060;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+  
+.footer .social_links a:hover {
+    background: #967E76;
+    color: #fff;
+}
