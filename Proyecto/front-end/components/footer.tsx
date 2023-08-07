@@ -50,12 +50,14 @@ export default function Footer() {
                 <div className="me-md-auto text-center text-md-start">
 
                     <div className="copyright">
-                        &copy; Copyright <strong><span>Medilab</span></strong>. All Rights Reserved
+                        &copy; Copyright <strong><span>Tramites Santiago</span></strong> 2023. Todos los derechos reservados
                     </div>
 
                     <div className={footer_styles.credits}>
-                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        <a href="https://www.xetid.cu">XETID</a>
                     </div>
+
+                    <br/>
 
                     <div className={footer_styles.social_links} text-center text-md-right pt-3 pt-md-0>
                         <a href="https://www.twitter.com/XETID2" className="twitter"><i className="bx bxl-twitter"></i></a>
